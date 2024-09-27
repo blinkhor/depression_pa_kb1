@@ -1,0 +1,30 @@
+{
+  "name": "depression-pa-kb-12",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "naive-ui": "^2.35.0",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.17.2",
+    "unplugin-vue-components": "^0.26.0",
+    "vfonts": "^0.0.3",
+    "vite": "^5.4.7",
+    "vite-plugin-checker": "^0.8.0",
+    "vue-tsc": "~2.1.6"
+  }
+}
